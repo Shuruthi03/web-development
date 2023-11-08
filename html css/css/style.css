@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+ }
+ .landing{
+    background-image: url('../images/gall1.jpg' );
+    background-size: cover;
+    background-repeat: no-repeat ;
+    
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    color: brown
+    
+ }
+ header{
+    display:flex;
+ }
+ .id{
+    flex: 2;
+    color: rgb(127, 17, 17);
+    font-size: 1.7em;
+    font-weight:bold ;
+ }
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding:2em ;
+}
+.tag
+{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: rgb(2, 2, 2)
+}
+.tag2{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(1, 1, 1)
+}
+.main button{
+    width: 40vw;
+    margin-top: 2em;
+    padding: .7em;
+    background-color:rgb(168, 22, 22)
+}
+#po{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.locatiom{
+    background-color: rgb(238, 187, 196) ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.about{
+    display: grid;
+    color: rgb(107, 4, 4);
+   
+}
+#men{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    color: rgb(96, 11, 4);
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: rgb(144, 24, 15);
+}
+table{
+display: flex;
+    width: 100%;
+}
+th{
+    padding: 1em;
+    color: rgb(128, 10, 10);
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+td{
+    padding: .6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+.contact{
+    padding: 2em;
+}
+.contact h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(102, 12, 12);
+    font-size: 2em
+}
+.contact h3{
+    display: flex;
+    justify-content: center;
+    color: rgb(102, 12, 12);
+    font-size: 1.5em
+}
+.bg{
+    background-color: rgb(252, 207, 214);
+}
+.bg p{
+    color:rgb(176, 39, 39) ;
+}
+
+    
+
+
+
+
+
+
+
+
+ 
+
+
