@@ -1,22 +1,24 @@
 body {
     margin: 10px 12px;
-    /* border: 0;
-    padding: 0; */
-    height: 50vh;
-    width: 100vh;
-    background-position: center;
+    background-color: rgb(252, 207, 214);
+    background-position: left;
     background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    color: brown;
     font-family: Verdana, Geneva, Tahoma, sans-serif
  }
- .landing{
+.landing{
     background-image: url('../images/gall1.jpg' );
-    height: 50vh;
-    width: 100vh;
+    height: 100%;
+    width: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     
-    width: 100%;
+    width: au;
     height: auto;
     padding: 1em;
     color: brown
@@ -74,11 +76,12 @@ h1{
 .about{
     display: grid;
     color: rgb(107, 4, 4);
+    margin: 0px 10px 10px 10px;
    
 }
 #men{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2em;
+    font-size: 1.9em;
     font-weight: bolder;
     color: rgb(96, 11, 4);
     display: flex;
@@ -86,25 +89,32 @@ h1{
 }
 .menu{
     display: grid;
+    height: 100vh;
+    width: 100vh;
     grid-template-columns: 1fr 1fr 1fr;
     color: rgb(144, 24, 15);
 }
-table{
+.table{
     margin: auto;
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 th{
+    /* height: 100vh;
+    width: 100vh; */
     padding: 1em;
     color: rgb(128, 10, 10);
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: x-large;
+    font-size: 1em;
 }
 td{
+    /* height: 100vh;
+    width: 100vh; */
     padding: .6em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
+    font-size: 1em;
 }
 .contact{
     padding: 2em;
@@ -117,18 +127,20 @@ td{
 }
 .contact h3{
     display: flex;
+    margin: 10px 10px;
     justify-content: center;
     color: rgb(102, 12, 12);
     font-size: 1.5em
 }
 .bg{
-    background-color: rgb(252, 207, 214);
-    /* height: 195vh;
-    width: 105vh; */
-    /* background-position: center; */
+    /* background-color: rgb(252, 207, 214); */
+    margin-right: 20px;
+    background-position: center;
     background-size: cover;
     /* background-repeat: no-repeat; */
 }
 .bg p{
     color:rgb(176, 39, 39) ;
+    margin: 10px 10px;
+
 }
