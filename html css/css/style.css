@@ -1,13 +1,20 @@
 body {
-    margin: 10;
-    border: 0;
-    padding: 0;
+    margin: 10px 12px;
+    /* border: 0;
+    padding: 0; */
+    height: 50vh;
+    width: 100vh;
+    background-position: center;
+    background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif
  }
  .landing{
     background-image: url('../images/gall1.jpg' );
+    height: 50vh;
+    width: 100vh;
+    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
     
     width: 100%;
     height: auto;
@@ -18,7 +25,7 @@ body {
  header{
     display:flex;
  }
- .id{
+.id{
     flex: 2;
     color: rgb(127, 17, 17);
     font-size: 1.7em;
@@ -31,8 +38,7 @@ body {
     justify-content: center;
     padding:2em ;
 }
-.tag
-{
+.tag{
     text-decoration: none;
     font-size: 1.5em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -84,7 +90,8 @@ h1{
     color: rgb(144, 24, 15);
 }
 table{
-display: flex;
+    margin: auto;
+    display: flex;
     width: 100%;
 }
 th{
@@ -116,20 +123,12 @@ td{
 }
 .bg{
     background-color: rgb(252, 207, 214);
+    /* height: 195vh;
+    width: 105vh; */
+    /* background-position: center; */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
 }
 .bg p{
     color:rgb(176, 39, 39) ;
 }
-
-    
-
-
-
-
-
-
-
-
- 
-
-
