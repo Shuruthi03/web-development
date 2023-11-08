@@ -1,5 +1,7 @@
 body {
     margin: 10 px;
+    border: 0.5 px;
+    padding: 0.5 px;
     font-family: Verdana, Geneva, Tahoma, sans-serif
  }
  .landing{
